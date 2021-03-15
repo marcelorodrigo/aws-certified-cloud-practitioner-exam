@@ -10,3 +10,9 @@ skills, and abilities to demonstrate basic knowledge of the AWS platform, includ
 
 In the result, you're able to demonstrate an understanding of AWS Cloud economics including: costs, billing, and analysis,
 and the value proposition of the AWS Cloud.
+
+## Study Material
+- [ExamPro Youtube Course (~4h sectioned content)](https://www.youtube.com/watch?v=3hLmDS179YE)
+
+## Resources
+- [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
