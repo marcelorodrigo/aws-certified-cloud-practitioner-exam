@@ -38,6 +38,7 @@ and the value proposition of the AWS Cloud.
 - Groups can only contain users (not other groups)
 - Users are not required to belong to a group, but they can belong of multiple groups
 - Policies (JSON) can be applied to groups or users
+- Some best practices for IAM are: To use MFA (Multi Factor Authentication), to use a good password policy for users, to never share IAM users or access keys!
 
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
