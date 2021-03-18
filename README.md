@@ -39,6 +39,7 @@ and the value proposition of the AWS Cloud.
 - Users are not required to belong to a group, but they can belong of multiple groups
 - Policies (JSON) can be applied to groups or users
 - Roles for EC2 Instances or AWS Services
+- IAM Credential Reports and IAM Access Advisor can help you audit IAM usage
 - Some best practices for IAM are: To use MFA (Multi Factor Authentication), to use a good password policy for users, to never share IAM users or access keys!
 
 ## Resources
