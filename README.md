@@ -31,6 +31,15 @@ and the value proposition of the AWS Cloud.
 
 **Software as a Service (SaaS)** - Provides you with a completed product that is run and managed by the service provider. In most cases, people referring to Software as a Service are referring to end-user applications. With a SaaS offering you do not have to think about how the service is maintained or how the underlying infrastructure is managed; you only need to think about how you will use that particular piece of software. A common example of a SaaS application is web-based email which you can use to send and receive email without having to manage feature additions to the email product or maintain the servers and operating systems that the email program is running on.
 
+## IAM
+- IAM is a Global service
+- Root account should not be used to operate AWS, as it not follows the least previlege principle
+- Users should be created instead, they can be grouped
+- Groups can only contain users (not other groups)
+- Users are not required to belong to a group, but they can belong of multiple groups
+- Policies (JSON) can be applied to groups or users
+- Some best practices for IAM are: To use MFA (Multi Factor Authentication), to use a good password policy for users, to never share IAM users or access keys!
+
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 - [6 advantages of Cloud Computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
