@@ -50,7 +50,9 @@ and the value proposition of the AWS Cloud.
   - Convertible: long jobs with flexible instances types over time
   - Scheduled: for a repeated time scheduled reservation
 - Spot: short jobs and cheap. But you can easily lose it due to the pricing model.
-- Dedicated Hosts: to have a physical server just for you.
+- Dedicated
+  - Dedicated Host: to have a physical server just for you.
+  - Dedicated Instance: hardware is dedicated to you, you may share the hardware with other instances in your account and no control over which your dedicated hardware your instance will be running.
 
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
