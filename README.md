@@ -42,6 +42,16 @@ and the value proposition of the AWS Cloud.
 - IAM Credential Reports and IAM Access Advisor can help you audit IAM usage
 - Some best practices for IAM are: To use MFA (Multi Factor Authentication), to use a good password policy for users, to never share IAM users or access keys!
 
+# EC2
+## Instances Purchase Options
+- On-Demand
+- Reserved
+  - 1y minimum
+  - Convertible: long jobs with flexible instances types over time
+  - Scheduled: for a repeated time scheduled reservation
+- Spot: short jobs and cheap. But you can easily lose it due to the pricing model.
+- Dedicated Hosts: to have a physical server just for you.
+
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 - [6 advantages of Cloud Computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
