@@ -54,6 +54,16 @@ and the value proposition of the AWS Cloud.
   - Dedicated Host: to have a physical server just for you.
   - Dedicated Instance: hardware is dedicated to you, you may share the hardware with other instances in your account and no control over which your dedicated hardware your instance will be running.
 
+EBS
+- Volumes are network drives that can be mounted to an instance at time (consider as true to this exam context)
+- Persists data that still lives even after instance termination
+- Bound to a specific AZ
+- Snapshots can be copied to any region
+- AMI's are built to a specific region, but they can be copied across regions
+- EC2 Image Builder automate the creation, maintaining, validation and testing of AMI's (and it can be scheduled)
+- EC2 Local Instance Store can be used to speed up a physical disk connection to EC2 instance
+- EFS is a NFS that can be mounted to several EC2 instances at once, and it costs 3x more than an EBS. It's multi AZ inside a region
+
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 - [6 advantages of Cloud Computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
