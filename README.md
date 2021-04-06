@@ -54,7 +54,7 @@ and the value proposition of the AWS Cloud.
   - Dedicated Host: to have a physical server just for you.
   - Dedicated Instance: hardware is dedicated to you, you may share the hardware with other instances in your account and no control over which your dedicated hardware your instance will be running.
 
-EBS
+# EBS
 - Volumes are network drives that can be mounted to an instance at time (consider as true to this exam context)
 - Persists data that still lives even after instance termination
 - Bound to a specific AZ
