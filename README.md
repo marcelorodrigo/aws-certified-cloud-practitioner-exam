@@ -68,7 +68,11 @@ and the value proposition of the AWS Cloud.
 - High availability means your app running at least in 2 availability zones
 - Scability: ability to accomodate a larger load by increasing the hardware (scaling up) or by adding nodes (scale out)
 - Elasticity: after the system is being scalable, elasticity means that the system can auto-scale based on the load
-- 
+- 4 kinds of load balancers:
+  - Application Load Balancer (http[s] only)
+  - Network Load Balancer
+  - Gatewau Load Balancer
+  - Classic Load Balancer (deprecated, old genereation)
 
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
