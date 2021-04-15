@@ -74,6 +74,18 @@ and the value proposition of the AWS Cloud.
   - Gatewau Load Balancer
   - Classic Load Balancer (deprecated, old genereation)
 
+# S3
+- Naming conventions for buckets
+  - No uppercase
+  - No underscore
+  - 3-63 characters long
+  - No IP numbers
+  - Must start with lowercase letter or number
+  - It needs to be globally unique
+- There isn't directory/folder concept, but prefixes that are part of the object key that can be long and with slashes (/)
+- Max object size is 5TB (which needs to be uploaded with multipart if they are bigger than 5 GB)
+- 
+
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 - [6 advantages of Cloud Computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
