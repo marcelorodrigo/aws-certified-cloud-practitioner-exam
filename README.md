@@ -106,6 +106,21 @@ Any access can be granted to an object if any of the conditions below are true, 
 - Amazon S3 Glacier
 - Amazon S3 Glacier Deep Archive
 
+# Databases and Analytics
+- Relational Databases (OLTP): RDS / Aurora
+- Memory: ElastiCache
+- Key-Value: DynamoDB (Serverless) + DAX (DynamoDB Accelerator Cache)
+- Warehouse (OLAP): Redshift
+- Hadoop Cluster: EMR
+- Athena: query data from S3
+- Quicksight: Dashboards from your data
+- DocumentDB: Amazon Aurora for MongoDB
+- QLDB: Financial Transactions Ledger
+- Managed Blockchain
+- Glue: Transform data using ETL for Redshift
+- Database Migration: DMS
+- Graph Database: Neptune
+
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 - [6 advantages of Cloud Computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
