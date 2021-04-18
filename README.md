@@ -98,6 +98,13 @@ Any access can be granted to an object if any of the conditions below are true, 
 - Same Region Replication [SRR]: log aggregation, live replication between prod and test accounts
 - Buckets can be in different accounts
 - Asynchronous process
+## Storage Classes
+- Amazon S3 General Purpose Storage
+- Amazon S3 Standard Infrequent Access (IA)
+- Amazon S3 One Zone-Infrequent Access.
+- Amazon S3 Intelligent Tiering
+- Amazon S3 Glacier
+- Amazon S3 Glacier Deep Archive
 
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
