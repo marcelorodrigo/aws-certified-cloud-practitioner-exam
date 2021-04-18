@@ -92,6 +92,12 @@ Any access can be granted to an object if any of the conditions below are true, 
 - Bucket policies, where rules are attached directly to buckets
 - Object Access Control List (OACL) - granular control
 - Bucket Access Control List (BACL)
+## Replication
+- Versioning is required for replication
+- Cross Region Replication [CRR]: compliance, lower latency, replicate between accounts
+- Same Region Replication [SRR]: log aggregation, live replication between prod and test accounts
+- Buckets can be in different accounts
+- Asynchronous process
 
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
