@@ -121,6 +121,9 @@ Any access can be granted to an object if any of the conditions below are true, 
 - Database Migration: DMS
 - Graph Database: Neptune
 
+# System Manager (SSM)
+- Helps you to manage EC2 and On-Premises system at scale, in a hybrid way.
+
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 - [6 advantages of Cloud Computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
