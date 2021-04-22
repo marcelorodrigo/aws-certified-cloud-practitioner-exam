@@ -137,6 +137,25 @@ Any access can be granted to an object if any of the conditions below are true, 
 - CloudTrail Insights: automated analysis of your CloudTrail events
 - X-Ray: trace requests through your services
 
+# Security
+- Shared Responsability Model
+  - Customer is responsible for security **IN** the cloud (customer data, platforms, applications, OS, network configuration and security, firewall, client and server side encryption, etc)
+  - AWS is responsible for security **OF** the cloud (compute, storage, database, networking, hardware, local access security, power, regions, availability zones and edge locations)
+- WAF & Shield for DDoS protection
+- AWS KMS (Key Management Service) is responsible to manage encryption keys for AWS Services at a software level
+- CloudHSM manage encryption at a hardware level (HSM = Hardware Security Module)
+- AWS Secret Manager for secret management (mostly on the exam related to RDS)
+- AWS Artifact: not really a service, but on demand compliance documentation and AWS agreements
+- GuardDuty, Macie and Security Hub are used to identify possible security issues
+- Detective is used for deep findings and analysys on the possible root cause on the issues identified by the services above
+- Abuse to report for abusive or illegal purposes that you detect
+- Actions that can be only performed by the root user
+  - Change account settings
+  - Close your account
+  - Change or cancel support plans
+  - Register as reseller on Reserved Instance Marketplace
+  - Signup for GovCloud
+
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 - [6 advantages of Cloud Computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
