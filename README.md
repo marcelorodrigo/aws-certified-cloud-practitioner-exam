@@ -157,7 +157,7 @@ Any access can be granted to an object if any of the conditions below are true, 
   - Signup for GovCloud
 
 # Accounts
-- AWS Organizations to organize organizational units and permissions to access services
+- AWS Organizations to organize organizational units and SCP (service control policies) to restrict accounts powers
 - AWS Control Tower to setup multi acccount environment according with best pratices
 
 # Billing
