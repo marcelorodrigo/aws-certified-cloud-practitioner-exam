@@ -108,7 +108,7 @@ and the value proposition of the AWS Cloud.
   - It needs to be globally unique
 - There isn't directory/folder concept, but prefixes that are part of the object key that can be long and with slashes (/)
 - Max object size is 5TB (which needs to be uploaded with multipart if they are bigger than 5 GB)
-## Security
+# Security
 Any access can be granted to an object if any of the conditions below are true, and there's no explict DENY.
 ### User Based
 - IAM Policies: attaching IAM policies for a specific user
