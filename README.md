@@ -159,6 +159,9 @@ Any access can be granted to an object if any of the conditions below are true, 
 # Accounts
 - AWS Organizations to organize organizational units and SCP (service control policies) to restrict accounts powers
 - AWS Control Tower to setup multi acccount environment according with best pratices
+- Config to record all resources configurations and compliance over time
+- CloudFormation to deploy stacks
+- CloudTrail to record API calls made within your account
 
 # Billing
 - AWS Pricing Calculator can help you estimate costs for your solution
