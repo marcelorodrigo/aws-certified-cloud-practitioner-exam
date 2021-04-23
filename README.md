@@ -31,7 +31,31 @@ and the value proposition of the AWS Cloud.
 
 **Software as a Service (SaaS)** - Provides you with a completed product that is run and managed by the service provider. In most cases, people referring to Software as a Service are referring to end-user applications. With a SaaS offering you do not have to think about how the service is maintained or how the underlying infrastructure is managed; you only need to think about how you will use that particular piece of software. A common example of a SaaS application is web-based email which you can use to send and receive email without having to manage feature additions to the email product or maintain the servers and operating systems that the email program is running on.
 
-## IAM
+# Well Architected Framework
+- Operational Excellence
+  - Ability to run and monitor systems
+  - Infra as code
+  - Frequent, small and reversible changes
+  - Antecipate failures
+- Security
+  - Ability to procted info, systems and assets
+  - Least privilege principle (IAM)
+  - Automated with best pratices
+- Realiabilty
+  - Ability to recover from infra or service disruptions
+  - Scale horizontally to increase aggreate system availability
+  - Stop guessing capacity with auto scale
+- Performance Efficiency
+  - Ability to use computing resources efficiently
+  - Go global in minutes
+  - Serverless architectures
+- Cost Optimization
+  - Ability to run systems to deliver business value at the lowest price point
+  - Pay only for what you use
+  - Use Cloudwatch
+  - Tags to catalog resources
+
+# IAM
 - IAM is a Global service
 - Root account should not be used to operate AWS, as it not follows the least previlege principle
 - Users should be created instead, they can be grouped
