@@ -156,6 +156,52 @@ Any access can be granted to an object if any of the conditions below are true, 
   - Register as reseller on Reserved Instance Marketplace
   - Signup for GovCloud
 
+# Accounts
+- AWS Organizations to organize organizational units and permissions to access services
+- AWS Control Tower to setup multi acccount environment according with best pratices
+
+# Billing
+- AWS Pricing Calculator can help you estimate costs for your solution
+- AWS Biling Dashboard show your monthly costs in a high level overview
+- Cost Allocation tracks costs on a detailed level
+- Cost Explorer allows you to visualize, understand and manage your costs and usages over time
+- Trusted Advisor analyse your accounts and provides recommendations on:
+  - Cost Optimization
+  - Performance
+  - Security
+  - Fault Tolerance
+  - Service Limits
+- Full Trusted Advisor available on Business and Enterprise plans
+
+# Support
+## Basic Support
+- Customer Service and Communities
+- AWS Trusted Advisor (core checks only)
+- AWS Personal Health Dashboard
+## Developer
+- Business hours emails access to Cloud Support Associates
+- Unlimited Cases / 1 primary contact
+- SLA for response times
+  - General Guidance: <=24 business hours
+  - System impaired: <=12 business hours
+## Business
+- Full Trusted Advidor + API access
+- 24x7 phone email and chat to Cloud Support Engineers
+- Unlimited cases / Unlimited contacts
+- Access to Infrastructure Event Management for an additional fee
+- SLA for response times
+  - General Guidance: <=24 business hours
+  - System impaired: <=12 business hours
+  - Production System Impaired: <=4 hours
+  - Production System Down: <=1 hour
+## Enterprise
+- Access to Technical Account Manager (TAM)
+- Concierge Support Team (for billing and account best pratices)
+- Infrastructure Event Management, Well-Architected & Operation Reviews
+- SLA for response times
+  - same as business
+  - Business-critical system down: <=15 minutes
+
 ## Resources
 - [Oficial Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 - [6 advantages of Cloud Computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
