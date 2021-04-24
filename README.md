@@ -108,7 +108,7 @@ and the value proposition of the AWS Cloud.
   - It needs to be globally unique
 - There isn't directory/folder concept, but prefixes that are part of the object key that can be long and with slashes (/)
 - Max object size is 5TB (which needs to be uploaded with multipart if they are bigger than 5 GB)
-# Security
+## S3 Security
 Any access can be granted to an object if any of the conditions below are true, and there's no explict DENY.
 ### User Based
 - IAM Policies: attaching IAM policies for a specific user
@@ -171,6 +171,9 @@ Any access can be granted to an object if any of the conditions below are true, 
 - AWS Secret Manager for secret management (mostly on the exam related to RDS)
 - AWS Artifact: not really a service, but on demand compliance documentation and AWS agreements
 - GuardDuty, Macie and Security Hub are used to identify possible security issues
+  - AWS Macie: Uses machine learning to analyse your S3 buckets and prevent data loss by automatically discovering, classifying, and protecting sensitive data
+  - AWS Glue: Serverless data integration service that uses ETL (extract, transform, and load) pipelines to transform data
+  - AWS Security Hub: Centrally view and manage security alerts and automate security checks
 - Detective is used for deep findings and analysys on the possible root cause on the issues identified by the services above
 - Abuse to report for abusive or illegal purposes that you detect
 - Actions that can be only performed by the root user
