@@ -86,7 +86,7 @@ and the value proposition of the AWS Cloud.
 - AMI's are built to a specific region, but they can be copied across regions
 - EC2 Image Builder automate the creation, maintaining, validation and testing of AMI's (and it can be scheduled)
 - EC2 Local Instance Store can be used to speed up a physical disk connection to EC2 instance
-- EFS is a NFS that can be mounted to several EC2 instances at once, and it costs 3x more than an EBS. It's multi AZ inside a region
+- Amazon EFS (Elastic File System): is a NFS that can be mounted to several EC2 instances at once, and it costs 3x more than an EBS. It's multi AZ inside a region
 
 # ELB
 - High availability means your app running at least in 2 availability zones
@@ -145,8 +145,11 @@ Any access can be granted to an object if any of the conditions below are true, 
 - Database Migration: DMS
 - Graph Database: Neptune
 
-# System Manager (SSM)
+# AWS System Manager (SSM)
 - Helps you to manage EC2 and On-Premises system at scale, in a hybrid way.
+- Gives you visibility and control of your infrastructure on AWS.
+- Provides a unified user interface so you can view operational data from multiple AWS services.
+- It can group resources, like Amazon EC2 instances, Amazon EKS clusters, Amazon S3 buckets, or Amazon RDS instances, by application, view operational data for monitoring and troubleshooting.
 
 # OpsWorks
 - Chef & Puppet as a service, an alternative to SSM
@@ -174,7 +177,8 @@ Any access can be granted to an object if any of the conditions below are true, 
   - AWS Macie: Uses machine learning to analyse your S3 buckets and prevent data loss by automatically discovering, classifying, and protecting sensitive data
   - AWS Glue: Serverless data integration service that uses ETL (extract, transform, and load) pipelines to transform data
   - AWS Security Hub: Centrally view and manage security alerts and automate security checks
-- Detective is used for deep findings and analysys on the possible root cause on the issues identified by the services above
+- AWS Detective: deep findings and analysys on the possible root cause on the issues identified by the services above
+- Amazon Inspector: Automated security assessment service to help improve the security and compliance of applications deployed on AWS
 - Abuse to report for abusive or illegal purposes that you detect
 - Actions that can be only performed by the root user
   - Change account settings
