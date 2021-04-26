@@ -169,7 +169,8 @@ Any access can be granted to an object if any of the conditions below are true, 
 - Shared Responsability Model
   - Customer is responsible for security **IN** the cloud (customer data, platforms, applications, OS, network configuration and security, firewall, client and server side encryption, etc)
   - AWS is responsible for security **OF** the cloud (compute, storage, database, networking, hardware, local access security, power, regions, availability zones and edge locations)
-- WAF & Shield for DDoS protection
+- WAF: Web application firewall helps you control bot traffic, sql injection, cross-site scripting, etc
+- AWS Shield: managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS
 - AWS KMS (Key Management Service) is responsible to manage encryption keys for AWS Services at a software level
 - CloudHSM manage encryption at a hardware level (HSM = Hardware Security Module)
 - AWS Secret Manager for secret management (mostly on the exam related to RDS)
@@ -177,7 +178,8 @@ Any access can be granted to an object if any of the conditions below are true, 
 - GuardDuty, Macie and Security Hub are used to identify possible security issues
   - AWS Macie: Uses machine learning to analyse your S3 buckets and prevent data loss by automatically discovering, classifying, and protecting sensitive data
   - AWS Glue: Serverless data integration service that uses ETL (extract, transform, and load) pipelines to transform data
-  - AWS Security Hub: Centrally view and manage security alerts and automate security checks
+  - AWS GuardDutty:  threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect your AWS accounts, workloads, and data stored in Amazon S3
+- AWS Security Hub: Centrally view and manage security alerts and automate security checks
 - AWS Detective: deep findings and analysys on the possible root cause on the issues identified by the services above
 - Amazon Inspector: Automated security assessment service to help improve the security and compliance of applications deployed on AWS
 - Abuse to report for abusive or illegal purposes that you detect
@@ -191,7 +193,7 @@ Any access can be granted to an object if any of the conditions below are true, 
 # Accounts
 - AWS Organizations to organize organizational units and SCP (service control policies) to restrict accounts powers
 - AWS Control Tower to setup multi acccount environment according with best pratices
-- Config to record all resources configurations and compliance over time
+- AWS Config: enables you to continuously monitor, audit, and evaluate the configurations changes of your AWS resources.
 - CloudFormation to deploy stacks
 - CloudTrail to record API calls made within your account
 
