@@ -64,6 +64,7 @@ and the value proposition of the AWS Cloud.
 - Policies (JSON) can be applied to groups or users
 - Roles for EC2 Instances or AWS Services
 - IAM Credential Reports and IAM Access Advisor can help you audit IAM usage
+- IAM Policy Simulator: you can test and troubleshoot IAM policies
 - Some best practices for IAM are: To use MFA (Multi Factor Authentication), to use a good password policy for users, to never share IAM users or access keys!
 
 # EC2
